@@ -16,10 +16,7 @@ git:
     enabled: true
 min_version: 0.8.4
 name: Fleek Configuration
-overlays:
-    eza:
-        enableAliases: true
-        git: true
+overlays: {}
 packages:
     - helix
     - thefuck
