@@ -15,6 +15,9 @@
 
     # Overlays
     
+    eza.url = "";
+    
+    
 
   };
 
@@ -46,7 +49,7 @@
             ];
           }
           ({
-           nixpkgs.overlays = [];
+           nixpkgs.overlays = [inputs.eza.overlay ];
           })
 
         ];
