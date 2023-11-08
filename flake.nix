@@ -15,8 +15,6 @@
 
     # Overlays
     
-    eza.url = "";
-    
     
 
   };
