@@ -18,8 +18,8 @@ min_version: 0.8.4
 name: Fleek Configuration
 overlays:
     eza:
-        follow: false
-        url: ""
+        enableAliases: true
+        git: true
 packages:
     - helix
     - thefuck
