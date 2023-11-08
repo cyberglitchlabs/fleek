@@ -12,6 +12,10 @@
 
     # Fleek
     fleek.url = "https://flakehub.com/f/ublue-os/fleek/*.tar.gz";
+
+    # Overlays
+    
+    eza.url = "";
     
     
 
