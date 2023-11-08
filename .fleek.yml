@@ -16,13 +16,12 @@ git:
     enabled: true
 min_version: 0.8.4
 name: Fleek Configuration
-overlays: 
+overlays:
     eza:
-        enableAliases: true
+        follow: false
+        url: ""
 packages:
     - helix
-#    - helm
-#    - kubectl
     - thefuck
 paths:
     - $HOME/bin
