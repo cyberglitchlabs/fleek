@@ -20,8 +20,33 @@
   # programs are installed and configuration applied to dotfiles
   home.packages = [
     # user selected packages
-    pkgs.helix
-    pkgs.thefuck
+    pkgs.kubectl
+    pkgs.terraform
+    pkgs.sops
+    pkgs.age
+    pkgs.krew
+    pkgs.kubernetes-helm
+    pkgs.raycast
+    pkgs.wireshark
+    pkgs.vault
+    pkgs.talosctl
+    pkgs.alejandra
+    pkgs.du-dust
+    pkgs.fd
+    pkgs.procs
+    pkgs.zoxide
+    pkgs.broot
+    pkgs.bat
+    pkgs.deno
+    pkgs.hugo
+    pkgs.ansible
+    pkgs.ansible-lint
+    pkgs.rustc
+    pkgs.cargo
+    pkgs.rustfmt
+    pkgs.rust-analyzer
+    pkgs.ripgrep
+    pkgs.lima
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })

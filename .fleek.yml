@@ -2,6 +2,7 @@ aliases:
     fleeks: cd ~/.local/share/fleek
     latest-fleek-version: nix run https://getfleek.dev/latest.tar.gz -- version
     update-fleek: nix run https://getfleek.dev/latest.tar.gz -- update
+    wtf: thefuck
 allow_broken: false
 auto_gc: true
 bling: none
@@ -10,20 +11,53 @@ byo_git: false
 ejected: false
 flakedir: .local/share/fleek
 git:
-    autocommit: true
+    autocommit: false
     autopull: true
-    autopush: true
+    autopush: false
     enabled: true
 min_version: 0.8.4
 name: Fleek Configuration
 overlays: {}
 packages:
-    - helix
-    - thefuck
+    - kubectl
+    - terraform
+    - sops
+    - age
+    - krew
+    - kubernetes-helm
+    - raycast
+    - wireshark
+    - vault
+    - talosctl
+    - alejandra
+    - du-dust
+    - fd
+    - procs
+    - zoxide
+    - broot
+    - bat
+    - deno
+    - hugo
+    - ansible
+    - ansible-lint
+    - rustc
+    - cargo
+    - rustfmt
+    - rust-analyzer
+    - ripgrep
+    - lima
 paths:
     - $HOME/bin
     - $HOME/.local/bin
+    - /usr/local/bin
+    - /opt/homebrew/bin
+    - /Applications/Visual Studio Code.app/Contents/Resources/app/bin
 programs:
+    - thefuck
+    - topgrade
+    - jq
+    - vscode
+    - gh
     - dircolors
     - starship
     - bat
@@ -31,6 +65,12 @@ programs:
     - btop
     - atuin
     - eza
+    - fzf
+    - k9s
+    - alacritty
+    - mcfly
+    - navi
+    - nix-index
 shell: zsh
 systems:
     - arch: x86_64

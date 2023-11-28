@@ -24,3 +24,5 @@ Your actual aliases are listed below:
     latest-fleek-version = "nix run https://getfleek.dev/latest.tar.gz -- version";
 
     update-fleek = "nix run https://getfleek.dev/latest.tar.gz -- update";
+
+    wtf = "thefuck";
