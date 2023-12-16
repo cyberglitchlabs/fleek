@@ -84,6 +84,17 @@ systems:
         ssh_public_key_file: ~/.ssh/id_ed25519.pub
         username: jason
       username: jason
+    - arch: x86_64
+      home: ""
+      hostname: nixos
+      os: linux
+      user:
+        email: jsievert@gmail.com
+        name: Jason Sievert
+        ssh_private_key_file: ~/.ssh/id_ed25519
+        ssh_public_key_file: ~/.ssh/id_ed25519.pub
+        username: jason
+      username: jason
 track: nixos-unstable
 unfree: true
 users: []

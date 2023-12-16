@@ -27,7 +27,6 @@
     pkgs.age
     pkgs.krew
     pkgs.kubernetes-helm
-    pkgs.raycast
     pkgs.wireshark
     pkgs.vault
     pkgs.talosctl
