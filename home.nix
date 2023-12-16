@@ -21,6 +21,7 @@
   home.packages = [
     # user selected packages
     pkgs.kubectl
+    pkgs.argocd
     pkgs.terraform
     pkgs.sops
     pkgs.age

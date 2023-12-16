@@ -20,12 +20,12 @@ name: Fleek Configuration
 overlays: {}
 packages:
     - kubectl
+    - argocd
     - terraform
     - sops
     - age
     - krew
     - kubernetes-helm
-    - raycast
     - wireshark
     - vault
     - talosctl
